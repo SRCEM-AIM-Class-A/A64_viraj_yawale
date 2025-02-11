@@ -1,5 +1,5 @@
 # A64_viraj_yawale
-SL-3 Lab assignment
+<h2>SL-3 Lab assignment</h2>
 
 **Assignment 1: Flask Web Application with Bootstrap, GitHub, and Docker**
 

@@ -7,3 +7,5 @@
 The goal of this assignment is to create a simple Flask web application with Bootstrap
 styling. You will commit the project to a GitHub repository, dockerize the application, and
 push the Docker image to Docker Hub.
+
+DockerHub repository : ```bash docker pull virajyawale/software_lab_3:assignment1 ```

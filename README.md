@@ -2,7 +2,7 @@
 <h2>SL-3 Lab assignment</h2>
 
 # **Assignment 1: Flask Web Application with Bootstrap, GitHub, and Docker**
-<hr>
+
 
 **Objective:** 
 The goal of this assignment is to create a simple Flask web application with Bootstrap
@@ -15,7 +15,7 @@ docker pull virajyawale/software_lab_3:assignment1
 ```
 
 # **Assignment 2: Build a Multi-App Django Project and Deploy with Docker**
-<hr>
+
 **Objective:** 
 Create a Django application with the following requirements:
 • The project must have multiple apps.<br>
@@ -24,14 +24,14 @@ Create a Django application with the following requirements:
 • Write a Jenkinsfile to automate the build pipeline.<br>
 • Push the Docker image to Docker Hub.<br>
 
-# 🎓 StudentProject - Django Multi-App with Docker & CI/CD  
 
-## 📌 Project Overview  
+
+### 📌 Project Overview  
 StudentProject is a **Django web application** containing multiple apps (**core, dashboard, reports**) with static views. The project is **containerized using Docker** and supports **automated deployment with Jenkins**.  
 
 ---
 
-## 🚀 Features  
+### 🚀 Features  
 - **Multi-app Django project** (Core, Dashboard, Reports)  
 - **Static pages** with Bootstrap-based UI  
 - **No database required** (Only templates & views)  
@@ -41,9 +41,9 @@ StudentProject is a **Django web application** containing multiple apps (**core,
 
 ---
 
-## 🛠 How to Run the Project  
+### 🛠 How to Run the Project  
 
-### **1️⃣ Clone the Repository**  
+#### **1️⃣ Clone the Repository**  
 ```sh
 git clone https://github.com/SRCEM-AIM-Class-A/A64_viraj_yawale.git
 cd Assignment2

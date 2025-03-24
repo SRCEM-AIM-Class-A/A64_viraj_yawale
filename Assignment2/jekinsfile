@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'your-dockerhub-username/studentproject'
+        DOCKER_IMAGE = 'virajyawale/assignment2'
         DOCKER_CREDENTIALS_ID = 'docker-hub-credentials'
-        GIT_REPOSITORY = 'https://github.com/your-github-username/your-repo.git'
+        GIT_REPOSITORY = 'https://github.com/SRCEM-AIM-Class-A/A64_viraj_yawale.git'
     }
 
     stages {

@@ -1,0 +1,19 @@
+body {
+    background-color: #f4f7fc;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+.container h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.card {
+    border-radius: 12px;
+    padding: 20px;
+}
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}

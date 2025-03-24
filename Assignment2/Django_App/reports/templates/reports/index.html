@@ -1,0 +1,35 @@
+{% extends "core/home.html" %}
+{% block content %}
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-body">
+            <h1 class="text-danger">Reports</h1>
+            <p>Here you can find all reports.</p>
+            <table class="table table-hover mt-3">
+                <thead class="table-dark">
+                    <tr>
+                        <th>#</th>
+                        <th>Report Name</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Annual Report</td>
+                        <td>2025-03-24</td>
+                        <td><button class="btn btn-info btn-sm">View</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Monthly Summary</td>
+                        <td>2025-03-01</td>
+                        <td><button class="btn btn-info btn-sm">View</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

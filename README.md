@@ -51,9 +51,21 @@ cd Assignment2
 
 #### **2️⃣ Run with Django (Without Docker)**
 ```sh
-Copy
-Edit
 pip install -r requirements.txt
 python manage.py runserver
 ```
 ➡️ Open http://127.0.0.1:8000/ in your browser.
+
+### 🐳 Run with Docker
+#### **1️⃣ Build the Docker Image**
+```sh
+docker build -t studentproject .
+```
+
+#### **2️⃣ Run the Container**
+```sh
+docker run -p 8000:8000 studentproject
+```
+
+➡️ Open http://127.0.0.1:8000/ in your browser.
+

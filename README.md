@@ -93,7 +93,7 @@ docker pull your-dockerhub-username/studentproject:v1
 
 
 ### Links
-GitHub Repository: [Your Repo URL](https://github.com/SRCEM-AIM-Class-A/A64_viraj_yawale.git)
+GitHub Repository: [Github Repo URL](https://github.com/SRCEM-AIM-Class-A/A64_viraj_yawale.git)
 
-Docker Hub Image: [Your DockerHub Repo](https://hub.docker.com/repository/docker/virajyawale/software_lab_3/tags)
+Docker Hub Image: [DockerHub Repo URL](https://hub.docker.com/repository/docker/virajyawale/software_lab_3/tags)
 

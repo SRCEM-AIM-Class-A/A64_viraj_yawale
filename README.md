@@ -56,6 +56,8 @@ python manage.py runserver
 ```
 ➡️ Open http://127.0.0.1:8000/ in your browser.
 
+---
+
 ### 🐳 Run with Docker
 #### **1️⃣ Build the Docker Image**
 ```sh
@@ -69,6 +71,7 @@ docker run -p 8000:8000 studentproject
 
 ➡️ Open http://127.0.0.1:8000/ in your browser.
 
+---
 
 ### 📌 CI/CD Pipeline (Jenkins)
 #### **1️⃣ Create a Jenkinsfile**
@@ -91,6 +94,7 @@ docker push your-dockerhub-username/studentproject:v1
 docker pull your-dockerhub-username/studentproject:v1
 ```
 
+---
 
 ### Links
 GitHub Repository: [Github Repo URL](https://github.com/SRCEM-AIM-Class-A/A64_viraj_yawale.git)

@@ -27,7 +27,7 @@ Create a Django application with the following requirements:
 
 
 ### 📌 Project Overview  
-StudentProject is a **Django web application** containing multiple apps (**core, dashboard, reports**) with static views. The project is **containerized using Docker** and supports **automated deployment with Jenkins**.  
+Django_App is a **Django web application** containing multiple apps (**core, dashboard, reports**) with static views. The project is **containerized using Docker** and supports **automated deployment with Jenkins**.  
 
 ---
 

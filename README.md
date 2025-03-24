@@ -69,3 +69,31 @@ docker run -p 8000:8000 studentproject
 
 ➡️ Open http://127.0.0.1:8000/ in your browser.
 
+
+### 📌 CI/CD Pipeline (Jenkins)
+#### **1️⃣ Create a Jenkinsfile**
+This project includes a Jenkinsfile that:
+
+Pulls code from GitHub
+
+Builds a Docker image
+
+Pushes the image to Docker Hub
+
+#### **2️⃣ Push Docker Image to Docker Hub**
+```sh
+docker tag studentproject your-dockerhub-username/studentproject:v1
+docker push your-dockerhub-username/studentproject:v1
+```
+➡️ Now anyone can pull it using:
+
+```sh
+docker pull your-dockerhub-username/studentproject:v1
+```
+
+
+### Links
+GitHub Repository: [Your Repo URL](https://github.com/SRCEM-AIM-Class-A/A64_viraj_yawale.git)
+
+Docker Hub Image: [Your DockerHub Repo](https://hub.docker.com/repository/docker/virajyawale/software_lab_3/tags)
+

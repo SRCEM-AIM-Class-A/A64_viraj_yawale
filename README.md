@@ -47,3 +47,13 @@ StudentProject is a **Django web application** containing multiple apps (**core,
 ```sh
 git clone https://github.com/SRCEM-AIM-Class-A/A64_viraj_yawale.git
 cd Assignment2
+```
+
+#### **2️⃣ Run with Django (Without Docker)**
+```sh
+Copy
+Edit
+pip install -r requirements.txt
+python manage.py runserver
+```
+➡️ Open http://127.0.0.1:8000/ in your browser.

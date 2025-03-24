@@ -1,7 +1,7 @@
 # A64_viraj_yawale
 <h2>SL-3 Lab assignment</h2>
 
-**Assignment 1: Flask Web Application with Bootstrap, GitHub, and Docker**
+# **Assignment 1: Flask Web Application with Bootstrap, GitHub, and Docker**
 <hr>
 
 **Objective:** 
@@ -14,7 +14,7 @@ DockerHub repository :
 docker pull virajyawale/software_lab_3:assignment1 
 ```
 
-**Assignment 2: Build a Multi-App Django Project and Deploy with Docker**
+# **Assignment 2: Build a Multi-App Django Project and Deploy with Docker**
 <hr>
 **Objective:** 
 Create a Django application with the following requirements:

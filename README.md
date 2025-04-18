@@ -100,7 +100,7 @@ docker pull your-dockerhub-username/studentproject:v1
 # **Final Assignment : Flask Web Application with Bootstrap, GitHub, and Docker**
 
 
-**Part1: Flask Application** 
+**<b>Part1: Flask Application</b>**
 1. Displays a "Hello, World!" message on the homepage.
 2. Has a second route that displays a form to accept a user's name and age, and returns a greeting message with these inputs.
 3. Implements basic error handling for invalid inputs.

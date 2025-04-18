@@ -97,7 +97,7 @@ docker pull your-dockerhub-username/studentproject:v1
 ---
 
 
-# **Final Assignment : Flask Web Application with Bootstrap, GitHub, and Docker**
+# **Final Assignment : Building Web Applications with Flask, Django, and Docker Compose**
 
 
 **<b>Part1: Flask Application</b>**

@@ -1,6 +1,40 @@
 # A64_viraj_yawale
 <h2>SL-3 Lab assignment</h2>
 
+
+
+
+# **Final Assignment : Building Web Applications with Flask, Django, and Docker Compose**
+
+
+**<b>Part1: Flask Application</b>**
+1. Displays a "Hello, World!" message on the homepage.
+2. Has a second route that displays a form to accept a user's name and age, and returns a greeting message with these inputs.
+3. Implements basic error handling for invalid inputs.
+
+
+```bash 
+ error = None
+    if request.method == 'POST':
+        name = request.form['name'].strip()
+        age = request.form['age'].strip()
+
+        # Implements basic error handling for invalid inputs.
+        # Validate name: only letters and spaces
+        if not name or not re.match("^[A-Za-z ]+$", name):
+            error = "Please enter a valid name (letters and spaces only)."
+        elif not age.isdigit() or int(age) <= 0:
+            error = "Please enter a valid positive age."
+        else:
+            return render_template('greet.html', name=name, age=age)
+ 
+```
+
+
+
+
+
+
 # **Assignment 1: Flask Web Application with Bootstrap, GitHub, and Docker**
 
 
@@ -97,31 +131,6 @@ docker pull your-dockerhub-username/studentproject:v1
 ---
 
 
-# **Final Assignment : Building Web Applications with Flask, Django, and Docker Compose**
-
-
-**<b>Part1: Flask Application</b>**
-1. Displays a "Hello, World!" message on the homepage.
-2. Has a second route that displays a form to accept a user's name and age, and returns a greeting message with these inputs.
-3. Implements basic error handling for invalid inputs.
-
-
-```bash 
- error = None
-    if request.method == 'POST':
-        name = request.form['name'].strip()
-        age = request.form['age'].strip()
-
-        # Implements basic error handling for invalid inputs.
-        # Validate name: only letters and spaces
-        if not name or not re.match("^[A-Za-z ]+$", name):
-            error = "Please enter a valid name (letters and spaces only)."
-        elif not age.isdigit() or int(age) <= 0:
-            error = "Please enter a valid positive age."
-        else:
-            return render_template('greet.html', name=name, age=age)
- 
-```
 
 
 ### Links
